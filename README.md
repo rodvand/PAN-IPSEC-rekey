@@ -3,7 +3,8 @@ Troubleshooting scripts for Palo Alto issues.
 
 Usage:
 ```
-python3 main.py -gw GATEWAY-NAME -tid TUNNEL_ID -fw_ip IP_TO_YOUR_FW -email
+python3 main.py
+usage: main.py [-h] -gw GW -tid TID [-fw_ip FW_IP] [-email]
 ```
 
 Find the tunnel id for your gateway by running `show running tunnel flow`.
